@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Accounts\" />
+    <Folder Include="Common\" />
+    <Folder Include="Core\" />
+    <Folder Include="Core\Auth\" />
+    <Folder Include="Core\OData\" />
+    <Folder Include="Countries\" />
+    <Folder Include="Currencies\" />
+    <Folder Include="Systems\" />
+    <Folder Include="Businesses\" />
+    <Folder Include="DefaultUnit\" />
+    <Folder Include="MinorCategory1\" />
+    <Folder Include="MinorCategory2\" />
+    <Folder Include="PriceLevel\" />
+    <Folder Include="PriceListItems\" />
+    <Folder Include="ProductGroup\" />
+    <Folder Include="ProductLine\" />
+    <Folder Include="Products\" />
+    <Folder Include="StringMap\" />
+    <Folder Include="UnitGroup\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+  </ItemGroup>
+</Project>

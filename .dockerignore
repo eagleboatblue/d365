@@ -1,0 +1,9 @@
+Dockerfile
+packages/
+bin/
+obj/
+*.md
+.vs/
+.editorconfig
+.env
+deploy/

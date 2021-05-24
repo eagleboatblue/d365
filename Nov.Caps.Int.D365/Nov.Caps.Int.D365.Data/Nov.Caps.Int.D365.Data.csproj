@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Abstract\" />
+    <Folder Include="Common\" />
+    <Folder Include="Common\Helpers\" />
+    <Folder Include="Queries\" />
+    <Folder Include="Incorta\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Nov.Caps.Int.D365.Models\Nov.Caps.Int.D365.Models.csproj" />
+    <ProjectReference Include="..\Nov.Caps.Int.D365.Common\Nov.Caps.Int.D365.Common.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="2.0.35" />
+    <PackageReference Include="Npgsql" Version="4.1.4" />
+  </ItemGroup>
+</Project>

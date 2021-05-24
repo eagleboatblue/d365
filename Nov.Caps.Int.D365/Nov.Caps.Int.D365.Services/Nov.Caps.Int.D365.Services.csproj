@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Accounts\" />
+    <Folder Include="Currencies\" />
+    <Folder Include="Products\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Serilog" Version="2.9.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Nov.Caps.Int.D365.Crm\Nov.Caps.Int.D365.Crm.csproj" />
+    <ProjectReference Include="..\Nov.Caps.Int.D365.Data\Nov.Caps.Int.D365.Data.csproj" />
+    <ProjectReference Include="..\Nov.Caps.Int.D365.Models\Nov.Caps.Int.D365.Models.csproj" />
+  </ItemGroup>
+</Project>

@@ -1,0 +1,53 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nov.Caps.Int.D365.Server", "Nov.Caps.Int.D365.Server\Nov.Caps.Int.D365.Server.csproj", "{AC1873E8-D376-470B-8557-4F73B246B3E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nov.Caps.Int.D365.Common", "Nov.Caps.Int.D365.Common\Nov.Caps.Int.D365.Common.csproj", "{72533B5E-2CA4-4A56-A68B-3A3C924635F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nov.Caps.Int.D365.Crm", "Nov.Caps.Int.D365.Crm\Nov.Caps.Int.D365.Crm.csproj", "{1791589D-FADF-476A-8B8F-02E6A797E079}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nov.Caps.Int.D365.Data", "Nov.Caps.Int.D365.Data\Nov.Caps.Int.D365.Data.csproj", "{6A07D447-4097-4A28-8767-080DC089C57D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nov.Caps.Int.D365.Models", "Nov.Caps.Int.D365.Models\Nov.Caps.Int.D365.Models.csproj", "{71C2F90F-040F-41CA-B06B-77827B2ED2DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nov.Caps.Int.D365.Services", "Nov.Caps.Int.D365.Services\Nov.Caps.Int.D365.Services.csproj", "{E126022F-0069-42FA-B883-516C4FA5B487}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nov.Caps.Int.D365.Messaging", "Nov.Caps.Int.D365.Messaging\Nov.Caps.Int.D365.Messaging.csproj", "{2C95D6E5-7643-4849-ADE1-BE9E52AAA9CE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AC1873E8-D376-470B-8557-4F73B246B3E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC1873E8-D376-470B-8557-4F73B246B3E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC1873E8-D376-470B-8557-4F73B246B3E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC1873E8-D376-470B-8557-4F73B246B3E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72533B5E-2CA4-4A56-A68B-3A3C924635F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72533B5E-2CA4-4A56-A68B-3A3C924635F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72533B5E-2CA4-4A56-A68B-3A3C924635F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72533B5E-2CA4-4A56-A68B-3A3C924635F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1791589D-FADF-476A-8B8F-02E6A797E079}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1791589D-FADF-476A-8B8F-02E6A797E079}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1791589D-FADF-476A-8B8F-02E6A797E079}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1791589D-FADF-476A-8B8F-02E6A797E079}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A07D447-4097-4A28-8767-080DC089C57D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A07D447-4097-4A28-8767-080DC089C57D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A07D447-4097-4A28-8767-080DC089C57D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A07D447-4097-4A28-8767-080DC089C57D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71C2F90F-040F-41CA-B06B-77827B2ED2DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71C2F90F-040F-41CA-B06B-77827B2ED2DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71C2F90F-040F-41CA-B06B-77827B2ED2DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71C2F90F-040F-41CA-B06B-77827B2ED2DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E126022F-0069-42FA-B883-516C4FA5B487}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E126022F-0069-42FA-B883-516C4FA5B487}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E126022F-0069-42FA-B883-516C4FA5B487}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E126022F-0069-42FA-B883-516C4FA5B487}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C95D6E5-7643-4849-ADE1-BE9E52AAA9CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C95D6E5-7643-4849-ADE1-BE9E52AAA9CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C95D6E5-7643-4849-ADE1-BE9E52AAA9CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C95D6E5-7643-4849-ADE1-BE9E52AAA9CE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
